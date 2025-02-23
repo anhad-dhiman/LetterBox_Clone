@@ -1,9 +1,9 @@
 import './App.css'
-import MovieCard from './Components/MovieCard'
+import Home from './pages/Home';
 function App() {
   return (
     <>
-      <MovieCard movie={{ title: "DevD", releaseDate: "2010", url: "https://via.placeholder.com/150" }} />
+      <Home />
     </>
   );
 }
